@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-2 bg-yellow-100 min-w-[90px] text-teal-950 font-semibold rounded-xl shadow-md hover:bg-yellow-200;
+  }
+  .status-div {
+    @apply relative max-w-[60px] rounded-xl left-[160px] top-[20px] text-xs;
+  }
+}
